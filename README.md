@@ -3,6 +3,8 @@
 The code solves the shallow water equations for a dam break problem using the finite volume method. The the Lax–Friedrichs or Roe methods are used to evaluate the fluxes. The Euler method is used for the explicit time stepping.
 The code is for teaching/explanation purposes and is not optimised in any way. 
 
+![Dam break problem](https://github.com/KBoychev/fvm_shallow_water/blob/master/examples/dam_lf/dam.gif "Dam break problem")
+
 # Compile
 
 The code requires the Eigen C++ libary. Download the libary and extract its contents to a folder named Eigen inside the includes folder. Once done run make to compile the code. The sw_solver binary will be created in the bin folder. 
